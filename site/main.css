@@ -28,6 +28,7 @@ html {
   grid-row: auto auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  cursor: pointer;
 }
 
 .simon-container .simon-button {
@@ -39,20 +40,43 @@ html {
   justify-content: center;
   font-size: 40px;
   font-family: sans-serif;
+
+}
+.bt {
+  height: 30px;
+  width: 40px;
+  text-align: center;
+  align-content: center;
+  background-color: transparent;
 }
 
-.simon-button.green {
+.simon-button1 {
   background-color: #21BA45;
+  border-radius: 1000px 0px 250px 0px ;
+}
+.light1 {
+  background-color: #13FF75;
 }
 
-.simon-button.red {
+.simon-button2 {
   background-color: #DB2828;
+  border-radius: 0px 1000px 0px 250px ;
 }
-
-.simon-button.yellow {
+.light2 {
+  background-color: #ff1c15;
+}
+.simon-button3 {
   background-color: #FBBD08;
+  border-radius: 0px 250px 0px 1000px ;
 }
-
-.simon-button.blue {
+.light3 {
+  background-color: #fdff1d;
+}
+.simon-button4 {
   background-color: #2185D0;
+  border-radius: 250px 0px 1000px 0px ;
+}
+.light4 {
+  background-color: #73feff;
+
 }
